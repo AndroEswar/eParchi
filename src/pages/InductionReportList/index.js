@@ -2,9 +2,11 @@ import React, {useState, Fragment} from 'react';
 import InductionReportData from '../data/InductionReportData';
 import {Card, Col, Row} from 'antd';
 import {Modal} from '../Modal';
+import ReportSummary from './ReportSummary';
 
 const InductionReportList = () => {
 	const [showModal, setShowModal] = useState(false)
+	const [rSummary, setRSummary] = useState('');
 	let list = [];
 	InductionReportData.forEach(it => {
 		if (it.parent_heat.heat_no) list.push(it.parent_heat.heat_no)
@@ -12,8 +14,8 @@ const InductionReportList = () => {
 	list = [...new Set([...list])];
 
 	const toggleModal = (it) => {
-		console.log(it)
-		setShowModal(true)
+		setShowModal(true);
+		setRSummary(it);
 	};
 
 	return (<Fragment>
@@ -27,7 +29,7 @@ const InductionReportList = () => {
 			})}
 		</Row>
 		<Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-			<div style={{width: '200px', height: '400px'}}>HelloWorld</div>
+			<ReportSummary {...{rSummary}}/>
 		</Modal>
 	</Fragment>);
 };

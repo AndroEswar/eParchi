@@ -14,7 +14,6 @@ const QualityReport = () => {
 	QualityReportData.forEach(it => {
 		if (it.parent_heat.furnace_no) furnaceNo.push(it.parent_heat.furnace_no)
 	});
-	console.log(QualityReportData, 'QualityReportData', furnaceNo);
 
 	return (<Fragment>
 		<Tabs defaultActiveKey='1' onChange={callback}>

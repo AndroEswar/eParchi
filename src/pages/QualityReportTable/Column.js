@@ -5,7 +5,6 @@ const column = [
 		Header: () => <header>Heat</header>,
 		accessor: 'heat_no',
 		Cell({original: o}) {
-			console.log(o)
 			return <div>
 				{o.parent_heat.heat_no}
 			</div>;
