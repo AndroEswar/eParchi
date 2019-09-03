@@ -4,12 +4,13 @@ import {Card, Col, Row} from 'antd';
 import {Modal} from '../Modal';
 import ReportSummary from './ReportSummary';
 
-const InductionReportList = () => {
+const InductionReportList = (props) => {
 	const [showModal, setShowModal] = useState(false)
 	const [rSummary, setRSummary] = useState('');
+
 	let list = [];
 	InductionReportData.forEach(it => {
-		if (it.parent_heat.heat_no) list.push(it.parent_heat.heat_no)
+		if (it.parent_heat.heat_no && it.parent_heat.furnace_no === props.furnaceNo) list.push(it.parent_heat.heat_no)
 	});
 	list = [...new Set([...list])];
 

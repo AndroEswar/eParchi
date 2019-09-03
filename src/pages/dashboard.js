@@ -1,23 +1,9 @@
 import React, {Fragment, useState} from 'react';
 import {Card} from 'antd';
 
-import InductionSummary from './InductionSummary';
-import InductionReport from './InductionReport';
-import CcmSummary from './CcmSummary';
-import QualityReport from './QualityReport';
+import SideNav from './';
 
-const tabList = [{key: 'indRep', tab: 'Induction Reports'},
-	{key: 'indSum', tab: 'Induction Summary'},
-	{key: 'cSum', tab: 'CCM Summary'},
-	{key: 'qRep', tab: 'Quality Report'},
-];
 
-const contentList = {
-  indRep: <InductionReport/>,
-	indSum: <InductionSummary/>,
-	cSum: <CcmSummary/>,
-	qRep: <QualityReport/>,
-};
 
 const TabsCard = () => {
 	const [key, setKey] = useState('indRep');
@@ -28,7 +14,7 @@ const TabsCard = () => {
 
 	return (
 		<Fragment>
-			<Card
+			{/* <Card
 				bordered={false}
 				style={{ width: '100%', height: '100vh', textAlign: 'center' }}
 				title='WELCOME TO DASHBOARD'
@@ -39,7 +25,8 @@ const TabsCard = () => {
 				}}
 			>
 				{contentList[key]}
-			</Card>
+			</Card> */}
+			<SideNav />
 		</Fragment>
 	);
 }

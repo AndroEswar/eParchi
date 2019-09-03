@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eParchi/static/css/main.97952eef.chunk.css",
-    "main.js": "/eParchi/static/js/main.c1f7ef87.chunk.js",
-    "main.js.map": "/eParchi/static/js/main.c1f7ef87.chunk.js.map",
+    "main.css": "/eParchi/static/css/main.be7e2cc4.chunk.css",
+    "main.js": "/eParchi/static/js/main.d99c4eca.chunk.js",
+    "main.js.map": "/eParchi/static/js/main.d99c4eca.chunk.js.map",
     "runtime~main.js": "/eParchi/static/js/runtime~main.a2fb45a6.js",
     "runtime~main.js.map": "/eParchi/static/js/runtime~main.a2fb45a6.js.map",
-    "static/css/2.9b0c25d8.chunk.css": "/eParchi/static/css/2.9b0c25d8.chunk.css",
-    "static/js/2.a25c5589.chunk.js": "/eParchi/static/js/2.a25c5589.chunk.js",
-    "static/js/2.a25c5589.chunk.js.map": "/eParchi/static/js/2.a25c5589.chunk.js.map",
+    "static/css/2.356804c4.chunk.css": "/eParchi/static/css/2.356804c4.chunk.css",
+    "static/js/2.48005823.chunk.js": "/eParchi/static/js/2.48005823.chunk.js",
+    "static/js/2.48005823.chunk.js.map": "/eParchi/static/js/2.48005823.chunk.js.map",
     "index.html": "/eParchi/index.html",
-    "precache-manifest.36b83b0c71ee8beb899c5bd6bb6e1a96.js": "/eParchi/precache-manifest.36b83b0c71ee8beb899c5bd6bb6e1a96.js",
+    "precache-manifest.8ebff252204361b8249800727fa664d8.js": "/eParchi/precache-manifest.8ebff252204361b8249800727fa664d8.js",
     "service-worker.js": "/eParchi/service-worker.js",
-    "static/css/2.9b0c25d8.chunk.css.map": "/eParchi/static/css/2.9b0c25d8.chunk.css.map",
-    "static/css/main.97952eef.chunk.css.map": "/eParchi/static/css/main.97952eef.chunk.css.map"
+    "static/css/2.356804c4.chunk.css.map": "/eParchi/static/css/2.356804c4.chunk.css.map",
+    "static/css/main.be7e2cc4.chunk.css.map": "/eParchi/static/css/main.be7e2cc4.chunk.css.map"
   }
 }
